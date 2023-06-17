@@ -1,0 +1,202 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+
+    --indigo: hsl(230, 94, 62);
+    --black: hsl(0, 0, 0);
+    --slate: hsl(215, 20, 65);
+    --white: hsl(240, 20, 98);
+}
+
+
+
+
+
+
+#profile-img{
+    border-radius: 100%;
+ }
+ 
+ .cabecalho{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 30px;
+     font-size: 25px;
+ }
+ 
+ .buttons{
+     display: flex;
+     gap: 20px;
+     font-weight: 400;
+     background:none;
+ 
+ }
+
+ 
+
+
+
+.nome{
+    font-weight: 490;
+    font-size: 30px;
+}
+
+.container{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+#profile-img{
+    width: 350px;
+    height: 350px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--slate);
+}
+
+#name{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+#caixa-button {
+    display: flex;
+    padding: 10px;
+    gap: 18px;
+    border-radius: 10%;
+}
+
+#caixa-button button{
+    background: none;
+    border-radius: 20px;
+    border: solid 2px var(--indigo);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius:40%;
+    background-color:#a5b4fc;
+   
+
+}
+
+
+#caixa-button button:hover{
+    background-color: var(--indigo);
+}
+
+
+#info{
+    display: flex;
+    flex-wrap:wrap;
+    width: 400px;
+}
+
+#seguidores{
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#follow-img{
+    width: 266px;
+    height: 266px;
+    border-radius: 4px;
+}
+
+#caixa-seguidor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caixa-tudo{
+    display: flex;
+    justify-content: center;
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hr{
+    width: 40px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: var(--indigo);
+}
+
+.mais{
+    display: flex;
+    justify-content: center;
+}
+
+.mais button{
+    background: none;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 2px var(--indigo);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 227px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.mais button:hover{
+    background-color: var(--indigo);
+}
+
+
+.creditos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creditos p{
+    font-weight: bolder;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+
